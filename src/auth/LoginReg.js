@@ -29,11 +29,12 @@ const LoginReg = () => {
                     backgroundImage:`url(${pic1})`,
                     backgroundSize: 'cover',
                     backgroundRepeat: 'no-repeat',
-                    backgroundPosition: 'center'
+                    backgroundPosition: 'center',
+                    display:{xs:'none', sm:'block'}
                 }}>
                 </Grid>
 
-                <Grid item lg={5} sm={7}>
+                <Grid item lg={5} sm={7} xs={12}>
                     <Card sx={{width:'100%', height:'100%'}}>
                         <Box>
                             <Box sx={{borderBottom: 1, borderColor: 'divider'}}>
