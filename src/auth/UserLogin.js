@@ -49,7 +49,7 @@ const UserLogin = () => {
                 <Box textAlign="center" sx={{mt:3, mb:2, px:5}}>
                     <Button type="submit" variant="contained">Login</Button>
                 </Box>
-                <NavLink to={"/"}>Forgot Password</NavLink>
+                <NavLink to={"/passwordreset"}>Forgot Password?</NavLink>
             </Box>
         </div>
     )
