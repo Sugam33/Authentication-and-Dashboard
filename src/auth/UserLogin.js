@@ -20,7 +20,7 @@ const UserLogin = () => {
             console.log(actualData)
             document.getElementById("login-form").reset();
             toast.success("data entered")
-            navigate("/");
+            navigate("/dashboard");
         }
         else{
             toast.warn("All fields required");
