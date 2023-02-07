@@ -25,7 +25,7 @@ const Navbar = () => {
               to="/contact"
               sx={{ color: "white", fontSize: "20px", textTransform: "none" }}
               style={({ isActive }) => {
-                return { backgroundColor: isActive ? "red" : "" };
+                return { backgroundColor: isActive ? "blue" : "" };
               }}
             >
               Contact
@@ -35,7 +35,7 @@ const Navbar = () => {
               to="/login"
               sx={{ color: "white", fontSize: "20px", textTransform: "none" }}
               style={({ isActive }) => {
-                return { backgroundColor: isActive ? "red" : "" };
+                return { backgroundColor: isActive ? "blue" : "" };
               }}
             >
               Login/Register
