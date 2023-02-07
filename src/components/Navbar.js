@@ -15,7 +15,7 @@ const Navbar = () => {
               to="/"
               sx={{ color: "white", fontSize: "20px", textTransform: "none" }}
               style={({ isActive }) => {
-                return { backgroundColor: isActive ? "red" : "" };
+                return { backgroundColor: isActive ? "blue" : "" };
               }}
             >
               Home
